@@ -1,0 +1,41 @@
+body, html {
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url('arctikgifbanner.gif') center center no-repeat;
+    background-size: 100% 100%;
+    position: relative;  /* Set the position property to make sure the child's absolute positioning refers to this */
+}
+
+.discord-section {
+    text-align: center;
+    background: none;
+    position: absolute;  /* Position the discord-section absolutely */
+    top: 50%;  /* Center it vertically */
+    left: 50%;  /* Center it horizontally */
+    transform: translate(-50%, -50%);  /* Offset by half its height and width to perfectly center */
+}
+
+.discord-section a {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #ADD8E6;  /* Light Blue text color */
+}
+
+.discord-section img {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.discord-section p {
+    font-size: 26px;  /* Increased font size */
+    font-weight: bold;  /* Bold text */
+    color: #FFF;  /* Change to white or another contrasting color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  /* Text shadow for depth */
+    background-color: rgba(0, 0, 0, 0.4);  /* Semi-transparent background */
+    padding: 5px 10px;  /* Padding for the background overlay */
+    border-radius: 5px;  /* Rounded corners for the overlay */
+}
